@@ -1,0 +1,13 @@
+body {
+    background-color: darkred;
+}
+.grid__item {
+    background-color: olivedrab;
+    border: 1px solid orange;
+    padding: 10px 25px;
+}
+.grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+}
